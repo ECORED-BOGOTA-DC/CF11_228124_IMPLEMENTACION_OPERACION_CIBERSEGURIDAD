@@ -1,17 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Mejoramiento continuo de las estrategias de ciberseguridad',
+    descripcionCurso:
+      'Mediante el estudio del presente componente, el aprendiz podrá identificar, explicar y aplicar aspectos fundamentales de la operación del ciclo de mejoramiento continuo de las estrategias de ciberseguridad en una organización, proceso fundamental para garantizar la actualización adecuada a las necesidades, a lo largo del tiempo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,27 +29,37 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis e interpretación de resultados',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Actividades objeto de análisis',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Informe de auditoría',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Mejora continua',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normatividad corporativa de seguridad de la información',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Buenas prácticas en ciberseguridad',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +110,102 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '4. Buenas prácticas en ciberseguridad',
+      referencia:
+        'South Security Cyber Community. (2021).<em> CIS Mapeo de Controles</em>.',
+      tipo: 'Norma técnica',
+      link:
+        'https://www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '4. Buenas prácticas en ciberseguridad',
+      referencia:
+        'Center for Internet Security. (2021).<em> CIS Benchmarks</em>. CISECURITY.',
+      tipo: 'Norma técnica',
+      link: 'https://www.cisecurity.org/cis-benchmarks/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ciberseguridad',
+      significado:
+        'conjunto de elementos articulados para la protección de la información alojados en dispositivos en el ciberespacio.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Estándar',
+      significado:
+        'documento técnico que puede ser tomado como referencia para un caso específico.',
+    },
+    {
+      termino: '<em>Framework</em>',
+      significado:
+        'es un marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
+    },
+    {
+      termino: 'Incidente',
+      significado: 'suceso repentino no deseado.',
+    },
+    {
+      termino: 'Norma',
+      significado:
+        'reglas organizadas y establecidas para la regulación de un comportamiento.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'conjunto de herramientas y actividades que sirven para responder a una necesidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Center for Internet Security (2021). <em>CIS Benchmarks</em>. CISECURITY.',
+      link: 'https://www.cisecurity.org/cis-benchmarks/',
+    },
+    {
+      referencia:
+        'ICONTEC. (2012). <em>Tecnología de la información. Técnicas de seguridad. Gestión de incidentes de seguridad de la información</em>. (GTC-ISO/IEC 27035).',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=311',
+    },
+    {
+      referencia:
+        'ICONTEC. (2017). <em>Tecnología de la información. Gestión del servicio. Parte 2: código de práctica</em> (NTC-ISO/IEC 20000-2).',
+      link: 'https://www.avancejuridico.com/docpdf/NORMA_TECNICA_20000-02.pdf',
+    },
+    {
+      referencia:
+        'ICONTEC. (2020). <em>Tecnologías de la información. Técnicas de seguridad. Directrices para ciberseguridad</em> (GTC-ISO-IEC 27032:2020).',
+      link:
+        'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
+    },
+    {
+      referencia:
+        'ISO 27001. (s. f.-a). <em>Evaluación del Desempeño en ISO 27001- Requisitos en detalle</em>.',
+      link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
+    },
+    {
+      referencia:
+        'ISO 27001. (s. f.-b). <em>ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?</em>',
+      link:
+        'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
+    },
+    {
+      referencia:
+        'ISO. (2020). ISO/IEC 27001:2013. <em>Information technology — Security techniques — Information security management systems — Requirements</em>.',
+      link: 'https://www.iso.org/standard/54534.html',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones [Mintic]. (2016). <em>Guía de auditoría. Seguridad y privacidad de la información</em>.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
+    },
+    {
+      referencia:
+        'South Security Cyber Community. (2021). <em>CIS Mapeo de Controles</em>.',
+      link:
+        'https://www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
     },
   ],
   creditos: [
@@ -135,15 +213,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -151,10 +229,44 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Joaquín Patiño Cerón',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial -Regional Cauca',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro Agropecuario La Granja- Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +274,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseño web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -191,22 +309,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
