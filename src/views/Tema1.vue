@@ -128,16 +128,16 @@
     .col-xl-10.m-auto.mt-4
       .p-4.p-lg-5(style="background-color:#F1EBF4;border-radius:7px;" data-aos="zoom-in-up")
         ul.lista-ul.mb-0
-          li 
+          li.d-flex
             i.lista-ul__vineta
             | Aspectos preliminares: propósito, objetivos, alcance de auditoría, métodos, enfoque.
-          li 
+          li.d-flex
             i.lista-ul__vineta
             | Características generales: marco regulatorio y las características generales de la organización a evaluar.
-          li 
+          li.d-flex
             i.lista-ul__vineta
             | Resultados de auditoría: no conformidades y observaciones de mejora encontradas.
-          li.mb-0
+          li.mb-0.d-flex
             i.lista-ul__vineta
             | Disposiciones finales: conclusiones y recomendaciones.
 
