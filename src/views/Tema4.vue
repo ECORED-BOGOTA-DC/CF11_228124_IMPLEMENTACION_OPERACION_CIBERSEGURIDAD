@@ -18,16 +18,16 @@
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         TabsA.color-acento-contenido
-          .tarjeta.color-acento-botones.p-4(titulo="Controles CIS v8" style="background-color:#FFF4D9;")
+          .tarjeta.color-acento-botones.p-4(titulo="Controles <br> CIS v8" style="background-color:#FFF4D9;")
             p.mb-0(style="color:inherit;") Los controles CIS son una propuesta de controles de seguridad específicos y con los cuales se busca endurecer las acciones defensivas y así prevenir incidentes que afecten los activos de información.
-          .tarjeta.color-acento-botones.p-4(titulo="En qué se basan <br> los controles CIS v8" style="background-color:#FFF4D9;")
+          .tarjeta.color-acento-botones.p-4(titulo="En qué se <br> basan los <br> controles <br> CIS v8" style="background-color:#FFF4D9;")
             p.mb-0(style="color:inherit;") Esta propuesta está basada en múltiples marcos de seguridad, lo que permite abordar diferentes puntos de vista y, asimismo, recoger las mejores propuestas de seguridad.
           .tarjeta.color-acento-botones.p-4(titulo="Estructuración <br> de CIS v8" style="background-color:#FFF4D9;")
             p.mb-0(style="color:inherit;") Los controles CIS están estructurados en 18 controles y 153 salvaguardas, distribuidos en 3 grupos de implementación.
-          .tarjeta.color-acento-botones.p-4(titulo="CIS <em>Benchmarks</em>" style="background-color:#FFF4D9;")
+          .tarjeta.color-acento-botones.p-4(titulo="CIS <br> <em>Benchmarks</em>" style="background-color:#FFF4D9;")
             p.mb-0(style="color:inherit;") Esta otra iniciativa de recomendaciones específicas para productos de diferentes proveedores y tipos recopila una serie de recomendaciones y pautas para el endurecimiento de sistemas y aplicaciones, y así poder cumplir con un nivel básico de seguridad.
-          .tarjeta.color-acento-botones.p-4(titulo="Las más comunes" style="background-color:#FFF4D9;")
-            p.mb-0(style="color:inherit;") Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios #[em(style="color:inherit;") web], bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, #[em(style="color:inherit;") software] de escritorio, dispositivos de impresión.
+          .tarjeta.color-acento-botones.p-4(titulo="Las más <br> comunes" style="background-color:#FFF4D9;")
+            p.mb-0(style="color:inherit;") Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, #[em(style="color:inherit;") software] de escritorio, dispositivos de impresión.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/2.png")
@@ -53,7 +53,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/4.png")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
-        p Desde NIST, #[em National Institute of Standards and Technology], se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (#[em Special Publication]), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
+        p Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (#[em Special Publication]), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
         p.mt-4 Entre las publicaciones más importantes, se encuentran aquellas relacionadas con auditorías, control del teletrabajo, control de dispositivos móviles, gestión de inventario de activos, entre otros, y algunos marcos de interoperabilidad.
     
     .col-xl-10.m-auto.mt-5

@@ -25,7 +25,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h5 No conformidad
-            p.mt-4 Se le conoce como #[strong No conformidad] al hallazgo por la falta o incumplimiento al desarrollo de un proceso y el cual no cumple con las condiciones esperadas de acuerdo con lo establecido en su propia estrategia de seguridad, poniendo en riesgo los pilares de la seguridad de la información.
+            p.mt-4 Se le conoce como #[strong no conformidad] al hallazgo por la falta o incumplimiento al desarrollo de un proceso y el cual no cumple con las condiciones esperadas de acuerdo con lo establecido en su propia estrategia de seguridad, poniendo en riesgo los pilares de la seguridad de la información.
             p.mt-4 Las no conformidades pueden ser detectadas a partir de auditorías, tanto internas como externas, o mediante procesos de monitoreo o  mediciones de resultados. Cuando se trata de no conformidades detectadas por auditorías externas, las no conformidades se pueden catalogar como menores o mayores.
           .col-lg-6
             figure.m-auto.col
@@ -41,17 +41,17 @@
           .col-lg-6.mb-4.mb-lg-0
             h5 No conformidades mayores
             p.mt-4 Son aquellas que sí ponen en riesgo, en principio, el funcionamiento de la estrategia de seguridad, y por ende afectan los pilares de la seguridad de la información, para los cuales también se deben establecer acciones correctivas con tiempo establecido, y se recomienda que sean revisadas antes de la siguiente auditoría.
-            p.mt-4 Al identificar cualquier tipo de #[strong No Conformidad], la organización puede, entre otras acciones, optar por:
+            p.mt-4 Al identificar cualquier tipo de #[st|ong no conformidad], la organización puede, entre otras acciones, optar por:
             ul.lista-ul.mb-0.mt-4
               li.d-flex
-                i.lista-ul__vineta
+                i.lista-ul__vineta|
                 | Controlar las inconsistencias y corregir las fallas.
               li.d-flex
                 i.lista-ul__vineta
                 | Asumir las consecuencias.
               li.d-flex
                 i.lista-ul__vineta
-                | Evaluar las causas que generaron la No Conformidad, para eliminarla.
+                | Evaluar las causas que generaron la no conformidad, para eliminarla.
               li.d-flex
                 i.lista-ul__vineta
                 | Implementar acciones correctivas para subsanar las causas.

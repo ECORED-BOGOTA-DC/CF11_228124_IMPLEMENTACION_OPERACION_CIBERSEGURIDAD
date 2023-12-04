@@ -170,11 +170,6 @@ export default {
     },
     {
       referencia:
-        'ICONTEC. (2017). <em>Tecnología de la información. Gestión del servicio. Parte 2: código de práctica</em> (NTC-ISO/IEC 20000-2).',
-      link: 'https://www.avancejuridico.com/docpdf/NORMA_TECNICA_20000-02.pdf',
-    },
-    {
-      referencia:
         'ICONTEC. (2020). <em>Tecnologías de la información. Técnicas de seguridad. Directrices para ciberseguridad</em> (GTC-ISO-IEC 27032:2020).',
       link:
         'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
@@ -194,12 +189,6 @@ export default {
       referencia:
         'ISO. (2020). ISO/IEC 27001:2013. <em>Information technology — Security techniques — Information security management systems — Requirements</em>.',
       link: 'https://www.iso.org/standard/54534.html',
-    },
-    {
-      referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones [Mintic]. (2016). <em>Guía de auditoría. Seguridad y privacidad de la información</em>.',
-      link:
-        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoría.pdf',
     },
     {
       referencia:

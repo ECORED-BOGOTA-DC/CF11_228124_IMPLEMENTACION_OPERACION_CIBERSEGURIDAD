@@ -50,6 +50,11 @@ export default {
   right: 54% !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #FFB206 !important
+.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+  text-align: center
+.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img img
+  max-width: 350px
+  display: inline
 @media screen and (max-width: 992px)
   .cont_responsive1
     right: 0 !important
