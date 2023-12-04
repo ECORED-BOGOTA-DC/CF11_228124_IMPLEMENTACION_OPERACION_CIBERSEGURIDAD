@@ -53,7 +53,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/4.png" alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
-        p Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (#[em Special Publication]), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
+        p Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (Special Publication), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
         p.mt-4 Entre las publicaciones más importantes, se encuentran aquellas relacionadas con auditorías, control del teletrabajo, control de dispositivos móviles, gestión de inventario de activos, entre otros, y algunos marcos de interoperabilidad.
     
     .col-xl-10.m-auto.mt-5

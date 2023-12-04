@@ -41,7 +41,7 @@
           .col-lg-6.mb-4.mb-lg-0
             h5 No conformidades mayores
             p.mt-4 Son aquellas que sí ponen en riesgo, en principio, el funcionamiento de la estrategia de seguridad, y por ende afectan los pilares de la seguridad de la información, para los cuales también se deben establecer acciones correctivas con tiempo establecido, y se recomienda que sean revisadas antes de la siguiente auditoría.
-            p.mt-4 Al identificar cualquier tipo de #[st|ong no conformidad], la organización puede, entre otras acciones, optar por:
+            p.mt-4 Al identificar cualquier tipo de #[strong no conformidad], la organización puede, entre otras acciones, optar por:
             ul.lista-ul.mb-0.mt-4
               li.d-flex
                 i.fas.fa-angle-right
