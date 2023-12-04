@@ -16,7 +16,7 @@
           p.text-end.mb-0 Lord Kelvin
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema2/1.png")
+          img(src="@/assets/curso/tema2/1.png" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-right") Partiendo de la premisa de Lord Kelvin, se puede abordar la fase de mejora continua como una #[strong acción permanente de revisión y perfeccionamiento de los procesos de una entidad]. Esta fase debe contar con sus propios responsables, pero involucra a toda la organización y asegurará una buena gestión de la seguridad de la información. A continuación, se presentan algunos elementos que se deben precisar en los procesos de  mejora continua. 
 
@@ -29,14 +29,14 @@
             p.mt-4 Las no conformidades pueden ser detectadas a partir de auditorías, tanto internas como externas, o mediante procesos de monitoreo o  mediciones de resultados. Cuando se trata de no conformidades detectadas por auditorías externas, las no conformidades se pueden catalogar como menores o mayores.
           .col-lg-6
             figure.m-auto.col
-              img(src='@/assets/curso/tema2/2.png')
+              img(src='@/assets/curso/tema2/2.png' alt="Imagen decorativa")
         .row
           .col-lg-6.mb-4.mb-lg-0
             h5 No conformidades menores
             p.mt-4 Se trata de aquellas objeciones identificadas en la estrategia de seguridad, pero que no comprometen la integridad de la misma o del activo de información, y pueden ser abordadas con alguna acción correctiva en un tiempo estimado y, además, serán evaluadas en la próxima auditoría.
           .col-lg-6
             figure.m-auto.col
-              img(src='@/assets/curso/tema2/3.png')
+              img(src='@/assets/curso/tema2/3.png' alt="Imagen decorativa")
         .row
           .col-lg-6.mb-4.mb-lg-0
             h5 No conformidades mayores
@@ -44,38 +44,38 @@
             p.mt-4 Al identificar cualquier tipo de #[st|ong no conformidad], la organización puede, entre otras acciones, optar por:
             ul.lista-ul.mb-0.mt-4
               li.d-flex
-                i.lista-ul__vineta|
+                i.fas.fa-angle-right
                 | Controlar las inconsistencias y corregir las fallas.
               li.d-flex
-                i.lista-ul__vineta
+                i.fas.fa-angle-right
                 | Asumir las consecuencias.
               li.d-flex
-                i.lista-ul__vineta
+                i.fas.fa-angle-right
                 | Evaluar las causas que generaron la no conformidad, para eliminarla.
               li.d-flex
-                i.lista-ul__vineta
+                i.fas.fa-angle-right
                 | Implementar acciones correctivas para subsanar las causas.
               li.d-flex
-                i.lista-ul__vineta
+                i.fas.fa-angle-right
                 | Evaluar la eficacia de los controles y acciones implementadas.
               li.d-flex
-                i.lista-ul__vineta
+                i.fas.fa-angle-right
                 | Evaluar la estrategia de seguridad para actualizarla, en caso de ser necesario.
           .col-lg-6
             figure.m-auto.col
-              img(src='@/assets/curso/tema2/4.png')
+              img(src='@/assets/curso/tema2/4.png' alt="Imagen decorativa")
         .row
           .col-lg-6.mb-4.mb-lg-0
             h5 Acciones correctivas
             p.mt-4 Estas acciones permiten corregir o eliminar la causa que puede generar una #[strong no conformidad]. Las acciones correctivas deben proponerse a partir de la identificación y deben ser evaluadas y aprobadas por la dirección y por el auditor que realizó la identificación de la no conformidad.
           .col-lg-6
             figure.m-auto.col
-              img(src='@/assets/curso/tema2/5.png')
+              img(src='@/assets/curso/tema2/5.png' alt="Imagen decorativa")
     
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema2/6.png")
+          img(src="@/assets/curso/tema2/6.png" alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#FFE8B3;")
           p.mb-0 En síntesis y en palabras más puntuales, la mejora continua es el proceso mediante el cual, de manera sistemática, se mejoran los procesos y procedimientos relacionados con la estrategia de seguridad. Esto, a partir de la evaluación de los controles, políticas y documentos que permiten garantizar la seguridad de la información.
@@ -86,7 +86,7 @@
         h5 Figura 1.
         span Implementación de la estrategia de seguridad
       figure.mt-4(data-aos="zoom-in-up")
-        img(src="@/assets/curso/tema2/7.svg")
+        img(src="@/assets/curso/tema2/7.svg" alt="Figura que muestra un diagrama de implementación de la estrategia de seguridad, el cual consta de: Mejora continua: Planear Hacer Verificar Actuar")
 
     
 

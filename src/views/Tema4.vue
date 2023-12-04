@@ -10,7 +10,7 @@
     .row
       .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema4/1.svg")
+          img(src="@/assets/curso/tema4/1.svg" alt="Imagen decorativa")
       .col(style="place-self:center;" data-aos="fade-left")
         p Un sistema de seguridad debe mejorarse de manera continua, y para ello, desde el área de seguridad, existen propuestas que facilitan la implementación de técnicas y tácticas de fortalecimiento de los activos de información.
         p.mb-0 Conozca, ahora, algunas de las buenas prácticas más representativas:
@@ -30,7 +30,7 @@
             p.mb-0(style="color:inherit;") Entre las guías más comunes, se encuentran: sistemas operativos Linux y Windows, servicios web, bases de datos, hipervisores, servicios en la nube, dispositivos móviles, dispositivos de red, #[em(style="color:inherit;") software] de escritorio, dispositivos de impresión.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema4/2.png")
+          img(src="@/assets/curso/tema4/2.png" alt="Imagen decorativa")
     
     .col-xl-10.m-auto.mt-5
       .p-4(data-aos="flip-up" style="background-color:#EEE5FE;border-radius:10px;")
@@ -51,7 +51,7 @@
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema4/4.png")
+          img(src="@/assets/curso/tema4/4.png" alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
         p Desde NIST, National Institute of Standards and Technology, se vienen publicando una serie de documentos de apoyo a la gestión de la seguridad, bajo el prefijo SP (#[em Special Publication]), con los cuales se busca aportar desde algunas pautas a la estandarización de acciones que buscan mejorar la seguridad de los activos de información.
         p.mt-4 Entre las publicaciones más importantes, se encuentran aquellas relacionadas con auditorías, control del teletrabajo, control de dispositivos móviles, gestión de inventario de activos, entre otros, y algunos marcos de interoperabilidad.

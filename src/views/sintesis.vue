@@ -8,7 +8,7 @@
     .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Imagen que muestra el mapa conceptual con síntesis del componente formativo.  En resumen, en el mejoramiento continuo de las estrategias de ciberseguridad, se abordaron aspectos cruciales, como el análisis detallado de vulnerabilidades, la evaluación de informes de auditoría, la implementación de mejoras constantes, el cumplimiento normativo corporativo y la adopción de buenas prácticas en ciberseguridad. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

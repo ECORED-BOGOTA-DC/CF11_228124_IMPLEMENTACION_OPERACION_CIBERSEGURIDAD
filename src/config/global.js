@@ -164,24 +164,12 @@ export default {
     },
     {
       referencia:
-        'ICONTEC. (2012). <em>Tecnología de la información. Técnicas de seguridad. Gestión de incidentes de seguridad de la información</em>. (GTC-ISO/IEC 27035).',
-      link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=311',
-    },
-    {
-      referencia:
-        'ICONTEC. (2020). <em>Tecnologías de la información. Técnicas de seguridad. Directrices para ciberseguridad</em> (GTC-ISO-IEC 27032:2020).',
-      link:
-        'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
-    },
-    {
-      referencia:
-        'ISO 27001. (s. f.-a). <em>Evaluación del Desempeño en ISO 27001- Requisitos en detalle</em>.',
+        'ISO 27001. (s.f.). <em>Evaluación del Desempeño en ISO 27001- Requisitos en detalle</em>.',
       link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
     },
     {
       referencia:
-        'ISO 27001. (s. f.-b). <em>ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?</em>',
+        'ISO 27001. (s.f.). <em>ISO 27001 Paso a Paso - 8 Auditoría Interna - ¿Cómo afrontarla?</em>',
       link:
         'https://normaiso27001.es/fase-8-auditoria-interna-segun-iso-27001/',
     },
@@ -189,6 +177,12 @@ export default {
       referencia:
         'ISO. (2020). ISO/IEC 27001:2013. <em>Information technology — Security techniques — Information security management systems — Requirements</em>.',
       link: 'https://www.iso.org/standard/54534.html',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTic]. (2016). <em>Guía de auditoría. Seguridad y privacidad de la información.</em>',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G15_Auditoria.pdf',
     },
     {
       referencia:
@@ -210,7 +204,7 @@ export default {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -221,41 +215,41 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesoría metodológica y pedagógica',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Hernando José Peña Hidalgo',
           cargo: 'Experto temático',
           centro:
-            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
         },
         {
           nombre: 'Joaquín Patiño Cerón',
           cargo: 'Experto temático',
           centro:
-            'Centro de Teleinformática y Producción Industrial -Regional Cauca',
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseño instruccional',
-          centro: 'Centro agropecuario La Granja - Regional Tolima',
+          centro: 'Regional Tolima - Centro agropecuario La Granja',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrección de estilo',
-          centro: 'Centro Agropecuario La Granja- Regional Tolima',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuación instruccional',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -266,31 +260,31 @@ export default {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
           cargo: 'Diseño web',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -301,20 +295,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
