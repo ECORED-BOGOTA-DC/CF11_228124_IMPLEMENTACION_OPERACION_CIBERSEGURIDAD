@@ -25,7 +25,7 @@
             .titulo-segundo.titulo_segundo_1
               h3 Normativa de la seguridad de la información
             p Para reforzar su conocimiento sobre las normas que orientan las acciones enfocadas a la seguridad de la información, visite el Anexo_1_NormativaSeguridadInformacion y haga lectura consciente de la teoría allí contenida, fundamental para el avance satisfactorio en este componente. 
-            a.boton.color-acento-botones.mt-4(:href="obtenerLink('downloads/Anexo_1_NormativaSeguridadInformacion.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.mt-4(:href="obtenerLink('downloads/NormativaSeguridadInformacion.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
