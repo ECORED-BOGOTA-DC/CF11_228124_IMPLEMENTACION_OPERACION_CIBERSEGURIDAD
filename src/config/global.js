@@ -112,10 +112,10 @@ export default {
     {
       tema: '4. Buenas prácticas en ciberseguridad',
       referencia:
-        'South Security Cyber Community. (2021).<em> CIS Mapeo de Controles</em>.',
+        'Center for Internet Security. (2023). <i>CIS Critical Security Controls v8 Mapping to NIST CSF.</i>',
       tipo: 'Norma técnica',
       link:
-        'https://www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
+        'https://www.cisecurity.org/insights/white-papers/cis-controls-v8-mapping-to-nist-csf',
     },
     {
       tema: '4. Buenas prácticas en ciberseguridad',
@@ -186,9 +186,9 @@ export default {
     },
     {
       referencia:
-        'South Security Cyber Community. (2021). <em>CIS Mapeo de Controles</em>.',
+        'Center for Internet Security. (2023). <i>CIS Critical Security Controls v8 Mapping to NIST CSF.</i>',
       link:
-        'https://www.southsecurity.org/resources/SouthSecurity-CIS_Mapeo_de_Controles.pdf',
+        'https://www.cisecurity.org/insights/white-papers/cis-controls-v8-mapping-to-nist-csf',
     },
   ],
   creditos: [
